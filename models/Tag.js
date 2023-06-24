@@ -14,6 +14,7 @@ Tag.init(
     tag_name: {
       type: DataTypes.STRING, // Define the data type for the tag_name column
       allowNull: false,
+      defaultValue: 'New Tag'
     },
   },
   {
